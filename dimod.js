@@ -76,14 +76,14 @@ client.on("message", async message => {
         `https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot`
       ).setDescription(`
 
- ***user commands*** 
+ ***Yser Commands*** 
 -----------------------------
 > \`${prefix}user\`    \`${prefix}ping\`    
 > \`${prefix}bot\`    \`${prefix}serverinfo\`         
 
 
 
-***moderation commands***
+***Moderation Commands***
 -----------------------------
 > \`${prefix}lock\`    \`${prefix}unlock\`    \`${prefix}clear\`
 > \`${prefix}ban\`     \`${prefix}unban\`    \`${prefix}mute\`
@@ -91,7 +91,7 @@ client.on("message", async message => {
 
 
 
-***security commands***
+***Security Commands***
 -----------------------------
 > \`${prefix}anti kick\`    \`${prefix}anti ban\`
 > \`${prefix}anti Rolec\`    \`${prefix}anti Roled\` 
