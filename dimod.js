@@ -1241,7 +1241,7 @@ client.on("message", message => {
 //=================================[ userinfo ]=============================//
 
 client.on("message", prof => {
-  if (prof.content.startsWith(prefix + "userinfo")) {
+  if (prof.content.startsWith(prefix + "user")) {
     if (cooldown.has(prof.author.id)) {
       return prof.channel
         .send(`Please wait for 10 second`)
@@ -1373,8 +1373,8 @@ client.on("message", message => {
       .addField("**DiscordJS**", `[ ${Discord.version} ]`, true)
       .addField("**NodeJS**", `[ ${process.version} ]`, true)
       .addField(
-        "**Bot-Owners**",
-        `[<@718920448179699733>]
+        "**Bot-Coder**",
+        `[<@754700343916494848>]
 [2-]`,
         true
       )
